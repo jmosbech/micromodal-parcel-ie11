@@ -1,0 +1,24 @@
+{
+  "name": "micromodal-parcel-ie11",
+  "version": "1.0.0",
+  "description": "Micromodal vs Parcel vs IE 11",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Jonas Mosbech",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "micromodal": "^0.4.2",
+    "regenerator-runtime": "^0.13.5",
+    "tslib": "^1.11.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "browserslist": [
+    "defaults",
+    "IE 11"
+  ]
+}
